@@ -31,6 +31,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            ghcr.io/${{ github.repository_owner }}/agentic-chatbot:latest
-            ghcr.io/${{ github.repository_owner }}/agentic-chatbot:${{ github.sha }}
+          # tags: |
+          #   ghcr.io/${{ github.repository_owner }}/agentic-chatbot:latest
+          #   ghcr.io/${{ github.repository_owner }}/agentic-chatbot:${{ github.sha }}
+           tags: |
+            ghcr.io/yashai-25/agentic-chatbot:latest
+            ghcr.io/yashai-25/agentic-chatbot:${{ github.sha }}
