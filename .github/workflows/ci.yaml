@@ -35,5 +35,5 @@ jobs:
           #   ghcr.io/${{ github.repository_owner }}/agentic-chatbot:latest
           #   ghcr.io/${{ github.repository_owner }}/agentic-chatbot:${{ github.sha }}
            tags: |
-            ghcr.io/yashai-25/agentic-chatbot:latest
-            ghcr.io/yashai-25/agentic-chatbot:${{ github.sha }}
+             ghcr.io/yashai-25/agentic-chatbot:latest
+             ghcr.io/yashai-25/agentic-chatbot:${{ github.sha }}
